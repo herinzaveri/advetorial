@@ -1,0 +1,266 @@
+@font-face {
+	font-family: Lato-Light;
+	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.40740d89.eot) format("eot"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.33655091.woff) format("woff"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.e95c2fb7.woff2) format("woff2"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.47862429.ttf) format("truetype"), url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Light.4be5a1c2.svg) format("svg");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Lato-Regular;
+	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.edd8983f.eot) format("eot"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.7514019e.woff) format("woff"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.e730b15c.woff2) format("woff2"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.d3a2e4db.ttf) format("truetype"), url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Regular.8704def4.svg) format("svg");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Lato-Black;
+	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.7a0464f0.eot) format("eot"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.9db3c351.woff) format("woff"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.62b4a39e.woff2) format("woff2"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.b4c3951f.ttf) format("truetype"), url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Black.ad26a273.svg) format("svg");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Lato-Bold;
+	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.cb77c7d5.eot) format("eot"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.9a80eb1a.woff) format("woff"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.ce0d5924.woff2) format("woff2"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.f202e573.ttf) format("truetype"), url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Bold.91aa60ec.svg) format("svg");
+	font-display: swap;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Lato-Black, sans-serif;
+	font-size: 14px;
+	/* font-weight: 100; */
+	line-height: 1.5;
+}
+
+/* header */
+
+.header {
+	background-color: #101f4a;
+	color: white;
+	padding: 40px 0;
+}
+
+.header h3 {
+	font-family: Lato-Regular, sans-serif;
+	/* font-weight: 100; */
+	font-size: 20px;
+	/* margin: 20px 0; */
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 60px;
+	margin: 30px 0;
+}
+
+.border-left {
+	border-left: 8px solid #f69f14;
+	padding: 0 30px;
+	/* font-size: 1.5rem; */
+	line-height: 1.5;
+	font-size: 35px;
+	margin: 20px;
+	font-family: Lato-Bold, sans-serif;
+	overflow: hidden;
+}
+
+.stock-market {
+	font-weight: 700;
+	line-height: 1.5;
+	font-size: 22px;
+	font-family: Lato-Regular, sans-serif;
+}
+
+.form-container {
+	/* position: absolute; */
+	margin-top: -200px;
+	/* transform: translateY(-30%); */
+}
+
+/* content */
+.content-para {
+	font-size: 22px;
+	font-family: Lato-Regular, sans-serif;
+	text-align: justify;
+	margin: 20px 0;
+	padding: 0 20px;
+}
+
+.temp-para {
+	margin: 40px 0;
+}
+
+.full-hide {
+	display: none;
+}
+
+.bold-para {
+	font-weight: 700;
+}
+
+.side-image {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.benefits-list {
+	background-color: #e1e1e1;
+	padding: 20px;
+}
+
+.benefits-list li {
+	font-size: 18px;
+	font-family: Lato-Regular, sans-serif;
+	line-height: 1.8;
+	display: list-item;
+	list-style: none;
+	/* list-style: square outside url("https://q4w6s4v3.stackpathcdn.com/images/bullet.8d00cfa7.png"); */
+	margin: 0 30px;
+	padding: 0 10px;
+	/* vertical-align: top; */
+	position: relative;
+}
+
+.benefits-list li::before {
+	content: "";
+	position: absolute;
+	display: block;
+	background: url("https://q4w6s4v3.stackpathcdn.com/images/bullet.8d00cfa7.png") no-repeat 50%;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	left: -25px;
+	top: 7px;
+}
+
+.find-out-button {
+	text-decoration: none;
+	padding: 15px 0 !important;
+	margin: 20px 0 30px 0 !important;
+	font-size: 20px !important;
+
+	font-family: Lato-Bold, sans-serif;
+	font-size: 1rem;
+	display: block;
+	background-color: #f69f14;
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px 0;
+	width: 80%;
+
+	transition: 0.3s;
+}
+
+.find-out-button:hover {
+	color: white;
+	background-color: #c57f10;
+	transition: 0.3s;
+}
+
+.button-container,
+.image-container {
+	display: flex;
+	justify-content: center;
+}
+
+.image-container {
+	margin: 20px 0;
+	padding-bottom: 30px;
+}
+
+.footer {
+	padding: 40px 0;
+	background-color: #e5e5e5;
+}
+
+.links-container {
+	margin: 0 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.links-container a {
+	margin: 0 20px;
+	font-family: Lato-Regular, sans-serif;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.links-container a:hover {
+	color: #f69f14;
+	transition: 0.3s;
+}
+
+.brand-name,
+.brand-content {
+	margin: 20px 0;
+	text-align: center;
+	font-family: Lato-Regular, sans-serif;
+}
+
+.brand-content {
+	font-size: 12px;
+	margin-top: 0;
+}
+
+/* media query */
+
+@media (max-width: 767px) {
+	.form-container {
+		/* transform: translateY(0); */
+		margin-top: 0;
+	}
+
+	.border-left {
+		padding-right: 0;
+		width: 90%;
+		font-size: 20px;
+	}
+
+	.header h1 {
+		font-size: 30px;
+		text-align: right;
+	}
+
+	.header h3 {
+		margin-top: 20px;
+	}
+
+	.break-line {
+		display: none;
+	}
+
+	.full-hide {
+		display: block;
+	}
+
+	.full-show {
+		display: none;
+	}
+
+	.links-container {
+		text-align: center;
+		flex-direction: column;
+	}
+
+	.links-container a {
+		margin-top: 20px;
+	}
+
+	.content-para {
+		font-size: 18px;
+	}
+
+	.side-image {
+		display: none;
+	}
+
+	.header {
+		background-size: cover;
+		background: url("https://q4w6s4v3.stackpathcdn.com/images/header-bg.5e060169.jpg") no-repeat 100%;
+	}
+}
