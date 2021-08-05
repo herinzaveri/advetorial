@@ -1,60 +1,24 @@
 @font-face {
 	font-family: Lato-Light;
-	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.40740d89.eot)
-			format("eot"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.33655091.woff)
-			format("woff"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.e95c2fb7.woff2)
-			format("woff2"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.47862429.ttf)
-			format("truetype"),
-		url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Light.4be5a1c2.svg)
-			format("svg");
+	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.40740d89.eot) format("eot"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.33655091.woff) format("woff"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.e95c2fb7.woff2) format("woff2"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Light.47862429.ttf) format("truetype"), url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Light.4be5a1c2.svg) format("svg");
 	font-display: swap;
 }
 
 @font-face {
 	font-family: Lato-Regular;
-	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.edd8983f.eot)
-			format("eot"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.7514019e.woff)
-			format("woff"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.e730b15c.woff2)
-			format("woff2"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.d3a2e4db.ttf)
-			format("truetype"),
-		url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Regular.8704def4.svg)
-			format("svg");
+	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.edd8983f.eot) format("eot"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.7514019e.woff) format("woff"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.e730b15c.woff2) format("woff2"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Regular.d3a2e4db.ttf) format("truetype"), url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Regular.8704def4.svg) format("svg");
 	font-display: swap;
 }
 
 @font-face {
 	font-family: Lato-Black;
-	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.7a0464f0.eot)
-			format("eot"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.9db3c351.woff)
-			format("woff"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.62b4a39e.woff2)
-			format("woff2"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.b4c3951f.ttf)
-			format("truetype"),
-		url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Black.ad26a273.svg)
-			format("svg");
+	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.7a0464f0.eot) format("eot"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.9db3c351.woff) format("woff"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.62b4a39e.woff2) format("woff2"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Black.b4c3951f.ttf) format("truetype"), url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Black.ad26a273.svg) format("svg");
 	font-display: swap;
 }
 
 @font-face {
 	font-family: Lato-Bold;
-	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.cb77c7d5.eot)
-			format("eot"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.9a80eb1a.woff)
-			format("woff"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.ce0d5924.woff2)
-			format("woff2"),
-		url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.f202e573.ttf)
-			format("truetype"),
-		url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Bold.91aa60ec.svg)
-			format("svg");
+	src: url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.cb77c7d5.eot) format("eot"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.9a80eb1a.woff) format("woff"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.ce0d5924.woff2) format("woff2"), url(https://q4w6s4v3.stackpathcdn.com/fonts/Lato-Bold.f202e573.ttf) format("truetype"), url(https://q4w6s4v3.stackpathcdn.com/images/Lato-Bold.91aa60ec.svg) format("svg");
 	font-display: swap;
 }
 
@@ -286,7 +250,7 @@ header .form-wrapper {
 	background-color: #fff;
 	padding: 0;
 	color: #626262;
-	max-width: 365px;
+	/* max-width: 365px; */
 	display: block;
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
@@ -355,13 +319,15 @@ header .form-wrapper {
 
 @media (max-width: 1200px) {
 	.form-wrapper {
-		max-width: 300px;
+		/* max-width: 300px; */
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 	.form-wrapper {
-		max-width: 100%;
+		/* max-width: 100%; */
+		max-width: 300px;
+		margin: 0 auto;
 	}
 
 	main .content .border-left {
@@ -417,7 +383,6 @@ form .form-group.country-group .text-error {
 .form-group label,
 html {
 	font-family: Lato-Regular, sans-serif !important;
-	
 }
 
 .form-wrapper .fs-body .form-group > input {
@@ -470,8 +435,6 @@ img {
 
 /* my styling */
 
-
-
 .form-control-custom {
 	height: 5px !important;
 	width: 100% !important;
@@ -488,5 +451,5 @@ img {
 }
 
 .form-label {
-	font-family: Lato-Regular,sans-serif;
+	font-family: Lato-Regular, sans-serif;
 }
